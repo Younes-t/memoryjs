@@ -1,0 +1,62 @@
+table.tableau{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+H1{
+    text-align: center;
+    font: 3em "Calibri", sans-serif;
+    text-decoration: underline;
+}
+
+.boutons{
+    margin-top: 50;
+    text-align: center;
+    
+}
+
+.recomencer{
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4375e0;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.recomencer:hover {background-color: #071452}
+
+.abandonner{
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #e95555;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.abandonner:hover {background-color: #5c0707}
+
+
+.compteur{
+    text-align: center;
+    font: 3em "Calibri", sans-serif;
+
+}
+
+.congrat{
+    font: 3em "Calibri", sans-serif;
+}

@@ -1,0 +1,23 @@
+<html>
+    <head>
+    <title>Memoryjs</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Memory js</h1>
+        <p id="nmbCout" class="compteur"></p>
+        <div id="plateau">
+            <table id="tableau" class="tableau"></table>
+            <script>
+                creerCartes();
+            </script>
+        </div>
+        <div class="boutons" id="bottom">
+            <button id="recomencer" onclick=recomencer() class="recomencer">Recomencer</button>
+            <button id="abandonner" onclick=abandonner() class="abandonner">Abandonner</button>
+        </div>
+    </body>
+
+</html>
